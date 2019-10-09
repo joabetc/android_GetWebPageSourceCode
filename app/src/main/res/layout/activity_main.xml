@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/url_button_label"
+        android:onClick="getSource"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/url_edit" />
 
@@ -59,7 +60,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/source_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/default_message" />

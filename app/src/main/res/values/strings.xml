@@ -4,6 +4,7 @@
     <string name="default_message">Page source will appear here</string>
     <string name="url_button_label">GET PAGE SOURCE</string>
     <string name="url_hint">www.example.com</string>
+    <string name="no_search_term">URL não informada</string>
     <string-array name="protocol_array">
         <item>http://</item>
         <item>https://</item>
